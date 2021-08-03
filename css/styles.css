@@ -22,6 +22,9 @@ header{
     align-items: center;
     width: 100%;
     padding: 0px 40px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 nav.desktop{
@@ -69,7 +72,7 @@ nav button.signup{
 }
 
 section.hero{
-    padding: 0px 40px;
+    padding: 70px 40px 80px;
     color: #022B69;
     width: 100%;
 }
@@ -136,11 +139,19 @@ section.hero{
 
 .features{
     padding: 0px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4%;
+}
+
+.features-caption{
+    margin-bottom: 8rem;
 }
 
 .features-caption h1{
     font-size: 4.86rem;
     color: #022b69;
+    margin: 0;
 }
 
 .features-caption p{
@@ -151,9 +162,9 @@ section.hero{
 .featureblock{
     border-radius: 20px;
     padding: 48px;
-    background-color: rgb(197, 197, 197);
-    height: 400px;
+    height: 700px;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 .featureblock h2{
@@ -175,8 +186,113 @@ section.hero{
 
 .featureblock h3{
     font-size: 1.25rem;
+    color: #0066f5;
 }
 
 .featureblock img{
-    width: 200px;
+    width: 400px;
+    padding-top: 12%;
+}
+
+.feature-images{
+    text-align: center;
+}
+
+.lightblue{
+    background-color: #f4f6ff;
+}
+
+.lightpink{
+    background-color: #fff6ee;
+}
+
+.hideblue{
+    background-color: #f5f6fa;
+}
+
+.deepblue{
+    background-color: #0066f5;
+}
+.deepblue h1, .deepblue h2, .deepblue h3{
+    color: #fff;
+}
+
+.deepblue p{
+    color: hsla(0,0%,100%,.6);
+}
+
+/* Steps */
+
+.steps{
+    background-color: #fcfcfc;
+    color: #022b69;
+    margin-top: 40px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+}
+
+.steps-image{
+    text-align: center;
+}
+.steps img{
+    width: 380px;
+}
+
+.steps-text{
+    width: 60%;
+}
+
+.steps-text h1{
+    font-size: 3.9rem;
+    color: #022b69;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.step-index{
+    padding-bottom: 5   px;
+}
+
+.step-index h3{
+    font-size: 2.4rem;
+}
+
+.step-index p{
+    font-size: 1.8rem;
+}
+
+.steps-text button{
+    padding: 10px 15px;
+    background-color: #0066f5;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    margin-top: 24px;
+}
+
+/* security */
+
+.security{
+    background-color: ;
+}
+
+.security h1{
+    font-size: 4.86rem;
+}
+
+.security h2{
+    font-size: 1.8rem;
+}
+
+.security h3{
+    font-size: 1.25rem;
+}
+
+.sec-item h4{
+    font-size: 2.1rem;
+}
+
+.sec-item p{
+    font-size: 1.8;
 }
