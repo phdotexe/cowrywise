@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Segoe UI', Roboto, Verdana, sans-serif;
+}
+.container{
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+nav.desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding-left: 19px;
+    background-color: white;
+}
+
+nav.mobile{
+    display:none;
+}
+
+nav ul.nav-items{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 16px;
+    
+    color: #022b69;
+    
+}
+
+nav button{
+    padding: 12px;
+    border-radius: 6px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+nav button.login{
+    color: #0066F5;
+    background-color: #fff;
+    border: 1px solid #0066F5;
+}
+
+nav button.signup{
+    color: #fff;
+    background-color: #0066F5;
+}
+
+section.hero{
+    padding: 0px 40px;
+    color: #022B69;
+    width: 100%;
+}
+
+.frontpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.hero h1{
+    font-size: 5.46rem;
+    
+}
+
+.hero .frontpage p{
+    font-size: 1.8rem;
+    padding-bottom: 24px;
+}
+
+.download-links a img{
+    outline: none;
+    display: inline;
+    width: 150px;
+    height: 65px;
+}
+
+.hero-image{
+    width: 100%;
+    overflow: hidden;
+}
+
+.license{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    box-shadow: 1px 1px 4px 1px#dbdbdb;
+    border-radius: 6px;
+    width: 200px;
+    height: 50px
+}
+.license img{
+    width: 35px;
+}
+
+.license h3{
+    font-size: 1.45rem;
+    line-height: 0;
+    margin-left: 7px;
+}
+
+.license p{
+    font-size: 1rem;
+    line-height: 0;
+    margin-left: 7px;
+}
+
+.quote img{
+    width: 50%;
+}
+
+/* features section */
+
+.features{
+    padding: 0px 40px;
+}
+
+.features-caption h1{
+    font-size: 4.86rem;
+    color: #022b69;
+}
+
+.features-caption p{
+    font-size: 1.8rem;
+    color: #022b6999;
+}
+
+.featureblock{
+    border-radius: 20px;
+    padding: 48px;
+    background-color: rgb(197, 197, 197);
+    height: 400px;
+    overflow: hidden;
+}
+
+.featureblock h2{
+    font-size: 2.1rem;
+    color: rgba(2,43,105,.6);
+    font-weight: 600;
+}
+
+.featureblock h1{
+    font-size: 3.45rem;
+    color: #022b69;
+
+}
+
+.featureblock p{
+    font-size: 1.8rem;
+    color: rgba(2,43,105,.6);
+}
+
+.featureblock h3{
+    font-size: 1.25rem;
+}
+
+.featureblock img{
+    width: 200px;
+}
