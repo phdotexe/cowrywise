@@ -12,9 +12,6 @@ html{
     font-size: 10px;
     font-family: 'Segoe UI', Roboto, Verdana, sans-serif;
 }
-.container{
-    
-}
 
 header{
     display: flex;
@@ -377,10 +374,11 @@ section.hero{
 .store{
     color:#022b69;
     padding: 10px 20px;
-    width: 400px;
+    width: 360px;
     border: solid 1px #dfd8d8;
     border-radius: 20px;
     box-shadow: 1px 1px 4px 1px#dbdbdb;
+    margin-bottom: 30px;
 }
 
 .download-top{
@@ -399,7 +397,7 @@ section.hero{
 }
 
 .store img{
-    width: 118px;
+    width: 11.8rem;
 }
 
 .store h1{
@@ -476,10 +474,6 @@ section.hero{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 80px 40px 0px;
-}
-
-.footer-item{
-
 }
 
 .footer-item h1{
@@ -573,10 +567,6 @@ section.hero{
         text-align: center;
     }
     
-    .step-index{
-        padding-left: ;
-    }
-
     .sec-head{
         width: 100%;
     }
@@ -605,4 +595,13 @@ section.hero{
         width: 90%;
         font-size: 3rem;
     }
+
+    .signup-section{
+        padding-left: 20px;
+    }
+    .signup-section h1{
+        width: 100%;
+    }
+
+        
 }
