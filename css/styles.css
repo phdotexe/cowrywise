@@ -13,7 +13,7 @@ html{
     font-family: 'Segoe UI', Roboto, Verdana, sans-serif;
 }
 
-header{
+header{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,7 +183,7 @@ section.hero{
 }
 
 .featureblock img{
-    width: 400px;
+    max-width: 300px;
     padding-top: 12%;
 }
 
@@ -229,7 +229,7 @@ section.hero{
     text-align: center;
 }
 .steps img{
-    width: 380px;
+    width: 400px;
 }
 
 .steps-text{
@@ -298,6 +298,8 @@ section.hero{
     grid-gap: 4%;
     grid-template-columns: 1fr 1fr;
     width: 75%;
+    list-style-type: square;
+    font-size: 3rem;
 }
 
 .sec-item h4{
@@ -436,6 +438,10 @@ section.hero{
     width: 40%;
 }
 
+.mobile-input{
+    display: none;
+}
+
 .signup-section span{
     background-color: #ffffff40;
     padding: 20px 0;
@@ -452,6 +458,10 @@ section.hero{
     color: #fff;
 }
 
+.mobile-input span{
+    display: none;
+}
+
 .signup-section input::placeholder{
     color: #fff;
     font-size: 1.5rem;
@@ -460,6 +470,7 @@ section.hero{
 
 .signup-section button{
     background-color: #fff;
+    font-size: 1.5rem;
     padding: 1rem;
     color:#022b69;
     font-weight: 600;
@@ -488,6 +499,70 @@ section.hero{
     line-height: 20px;
 }
 
+/* sec */
+
+hr{
+    width: 95%;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #3f85e8;
+
+}
+.socials{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #6780A5;
+    font-size: 22px;
+    padding-left: 15px;
+}
+.icons{
+    margin-right: 10px;
+}
+.icons:hover{
+    color: #3f85e8;
+    cursor: pointer;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h6{
+    padding-top: 20px;
+    color:#022b69;
+    font-size: 14px;
+}
+.last-text{
+    margin-bottom: 20px;
+}
+.last-text p{
+    font-size: 1rem;
+    margin: 15px 40px;
+    color: #ADBBCC;
+    
+}
+.funds{
+    color: #3f85e8;
+}
+
+.smiley{
+    font-size: 40px;
+    border-radius: 50px;
+    background-color: #0067F5;
+    padding: 13px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 6%), 0 2px 32px 0 rgb(0 0 0 / 16%);
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+
+}
 @media only screen and (max-width: 800px){
     html{
         font-size: 8px;
@@ -603,5 +678,24 @@ section.hero{
         width: 100%;
     }
 
-        
+    .desktop-input{
+        display: none;
+    }
+    .mobile-input{ 
+        display: block;
+    }
+
+    .mobile-input span{
+        display: flex;
+        height: 40px;
+        width: 250px;
+        margin-bottom: 20px
+    }
+
+    .mobile-input button{
+        padding: 1.5rem;
+    }
+
+    
+    
 }
