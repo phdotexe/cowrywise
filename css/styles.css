@@ -274,25 +274,221 @@ section.hero{
 /* security */
 
 .security{
-    background-color: ;
+    background-color: #0066f5;
+    color: #fff;
+    font-weight: 400;
+    padding: 30px 40px 150px;
+}
+
+.sec-head{
+    width: 40%;
 }
 
 .security h1{
     font-size: 4.86rem;
+    font-weight: 500;
 }
 
 .security h2{
     font-size: 1.8rem;
+    font-weight: 400;
 }
 
 .security h3{
     font-size: 1.25rem;
+    color: #fffc;
+    padding-top: 20px;
+}
+
+.sec-items{
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
 }
 
 .sec-item h4{
     font-size: 2.1rem;
+    font-weight: 600;
 }
 
 .sec-item p{
-    font-size: 1.8;
+    font-size: 1.8rem;
+    color: #ffffffcc;
+}
+
+/* Reason */
+
+.reason{
+    padding-top: 50px;
+}
+                                                         
+.reason h1{
+    font-size: 1.6rem;
+    color: #022b69;
+}
+
+.switch h2{
+    font-size: 6rem;
+    color: #022b6966;
+}
+.switch span{
+    color:#022b69;
+}
+
+/* Quote */
+.quote{
+    display: flex;
+}
+
+.quote-text{
+    background-color: #A6F4F0;
+    padding-left: 4%;
+    padding-top: 20px;
+}
+
+.quote-text p{
+    font-size: 3.45rem;
+    color:#022b69;
+    font-weight: 700;
+    width: 60%;
+}
+
+.quote-text h4{
+    font-size: 1.74rem;
+    display: inline;
+    color:#022b69;
+    font-weight: 500;
+}
+
+.quote-text h5{
+    font-size: 1.2rem;
+    display: inline;
+    color:#022b6988;
+}
+
+/* Download */
+.download{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.store{
+    color:#022b69;
+    padding: 10px 20px;
+    width: 400px;
+    border: solid 1px #dfd8d8;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 1px#dbdbdb;
+}
+
+.download-top{
+    display: flex;
+    justify-content: space-between;
+}
+.store h2{
+    font-size: 4rem;
+    display: inline;
+}
+
+.store h5{
+    font-size: 2rem;
+    color: #022b69aa;
+    display: inline;
+}
+
+.store img{
+    width: 118px;
+}
+
+.store h1{
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.store p{
+    font-size: 1.3rem;
+    color: #6c82a3;
+}
+
+.store h4{
+    font-size: 1.25rem;
+    color: #0066F5;
+    /* padding-top: 44px; */
+}
+
+/* signup section */
+
+.signup-section{
+    background-color: #0066f5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    margin: 0 40px;
+    padding: 30px 0px;
+    box-shadow: 0px 0px 12px 0px #0066f566;
+}
+
+.signup-section h1{
+    font-size: 3.9rem;
+    color: #fff;
+    width: 40%;
+}
+
+.signup-section span{
+    background-color: #ffffff40;
+    padding: 20px 0;
+    border-radius: 8px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.signup-section input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+}
+
+.signup-section input::placeholder{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+.signup-section button{
+    background-color: #fff;
+    padding: 1rem;
+    color:#022b69;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 0;
+    height: 42px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.footer-item{
+
+}
+
+.footer-item h1{
+    font-size: 2rem;
+    color: #022b69;
+}
+
+.footer-item h2{
+    font-size: 1.46rem;
+    color: rgba(2,43,105,.6);
+    font-weight: 500;
+    line-height: 20px;
 }
