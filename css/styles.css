@@ -131,10 +131,6 @@ section.hero{
     margin-left: 7px;
 }
 
-.quote img{
-    width: 50%;
-}
-
 /* features section */
 
 .features{
@@ -251,7 +247,7 @@ section.hero{
 }
 
 .step-index{
-    padding-bottom: 5   px;
+    padding-bottom: 5px;
 }
 
 .step-index h3{
@@ -320,7 +316,7 @@ section.hero{
 /* Reason */
 
 .reason{
-    padding-top: 50px;
+    padding: 50px 40px 0px;
 }
                                                          
 .reason h1{
@@ -329,7 +325,7 @@ section.hero{
 }
 
 .switch h2{
-    font-size: 6rem;
+    font-size: 4rem;
     color: #022b6966;
 }
 .switch span{
@@ -339,6 +335,10 @@ section.hero{
 /* Quote */
 .quote{
     display: flex;
+}
+
+.quote img{
+    width: 50%;
 }
 
 .quote-text{
@@ -371,6 +371,7 @@ section.hero{
 .download{
     padding: 100px 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .store{
@@ -474,7 +475,7 @@ section.hero{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 80px;
+    padding: 80px 40px 0px;
 }
 
 .footer-item{
@@ -491,4 +492,117 @@ section.hero{
     color: rgba(2,43,105,.6);
     font-weight: 500;
     line-height: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    html{
+        font-size: 8px;
+    }
+
+    header{
+        padding: 0px 10px;
+    }
+
+    section.hero{
+        padding-top: 20px;
+    }
+
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile{
+        display: flex;
+    }
+
+    .frontpage{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero h1{
+        font-size: 5rem;
+        
+    }
+
+    .download-links a img{
+        outline: none;
+        display: inline;
+        width: 120px;
+    }
+
+    .hero-image{
+        display: none;
+    }
+
+    .license{
+        width: 180px
+    }
+
+    .features{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .featureblock{
+        width: 100%;
+    }
+    .featureblock img{
+        width: 100%;   
+    }
+
+    .steps{
+        grid-template-columns: 1fr;
+        margin: 190px auto auto;
+        width: 100vw;
+        padding: 0px 30px 80px;
+    }
+
+    .steps-image{
+        display: none;
+    }
+
+    .steps-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .steps-text h1{
+        text-align: center;
+    }
+    
+    .step-index{
+        padding-left: ;
+    }
+
+    .sec-head{
+        width: 100%;
+    }
+    .sec-items{
+        grid-template-columns: 1fr;
+        width: 100%
+    }
+
+    .reason{
+        padding-top: 20px;
+    }
+
+    .quote{
+        flex-direction: column;
+    }
+
+    .quote img{
+        width: 100%;
+    }
+
+    .quote-text{
+        padding-bottom: 40px;
+    }
+
+    .quote-text p{
+        width: 90%;
+        font-size: 3rem;
+    }
 }
